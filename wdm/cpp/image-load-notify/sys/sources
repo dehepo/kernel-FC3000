@@ -1,0 +1,5 @@
+TARGETNAME=main
+TARGETTYPE=DRIVER  
+TARGETPATH=obj
+LIBS=ntoskrnl.lib
+SOURCES=main.c
