@@ -1,0 +1,2 @@
+$ ARCH=arm make suniv_defconfig
+$ ./tools/make_suniv.sh fc3000_ips2
