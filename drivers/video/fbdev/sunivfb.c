@@ -891,8 +891,7 @@ static void fc3000_WL_28H105_A1_lcd_init(void)
 
     //
     // Gamma is set by dafault also at reset
-    //
-    /*
+    //    
     lcdc_wr_cmd(swapRB(0xE0));    //PVGAMCTRL - Positive Power Gamma control
     lcdc_wr_dat(swapRB(0xD0));
     lcdc_wr_dat(swapRB(0x00));
@@ -924,7 +923,6 @@ static void fc3000_WL_28H105_A1_lcd_init(void)
     lcdc_wr_dat(swapRB(0x17));    // (18)
     lcdc_wr_dat(swapRB(0x1B));    // (16)
     lcdc_wr_dat(swapRB(0x1E));    // (19)
-    */
 
     lcdc_wr_cmd(swapRB(0x2A));    //CASET - Column Adress set
     lcdc_wr_dat(swapRB(0x00));
